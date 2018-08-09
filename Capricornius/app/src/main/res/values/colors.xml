@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#414141</color>
+    <color name="colorPrimaryDark">#1a1a1a</color>
+    <color name="colorAccent">#292929</color>
+    <color name="colorBackgroundTelaLogin">#110823</color>
+    <color name="colorLetrasBranco">#ececec</color>
+    <color name="colorLetrasPreto">#0d0c0c</color>
+    <color name="colorBackgroundMenu">#4268ba</color>
+    <color name="colorBackgroundSubMenu">#3357a6</color>
+
+
+</resources>

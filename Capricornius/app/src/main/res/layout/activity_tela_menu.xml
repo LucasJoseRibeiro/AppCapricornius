@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaMenu">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- Primeira linha (2 itens)-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundMenu"
+                android:onClick="SaidaAnimais" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:tint="#e4e3e3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorBackgroundSubMenu"
+                    android:text="Sáida de Animais"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLetrasBranco"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundMenu"
+                android:onClick="Desmama" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:tint="#e4e3e3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorBackgroundSubMenu"
+                    android:text="Desmama"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLetrasBranco"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Segunda linha (2 itens)-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundMenu"
+                android:onClick="OcorrenciasDiversas" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:tint="#e4e3e3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorBackgroundSubMenu"
+                    android:text="Ocorrências Diversas"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLetrasBranco"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundMenu"
+                android:onClick="PesagemAnimal" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:tint="#e4e3e3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorBackgroundSubMenu"
+                    android:text="Pesagem Animal"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLetrasBranco"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Terceira linha (2 itens)-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundMenu"
+                android:onClick="EscoreCorporal" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:tint="#e4e3e3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorBackgroundSubMenu"
+                    android:text="Escore Corporal"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLetrasBranco"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundMenu"
+                android:onClick="PesagemLeite" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:tint="#e4e3e3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorBackgroundSubMenu"
+                    android:text="Pesagem de Leite"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLetrasBranco"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Quarta linha (2 itens)-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="2" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundMenu"
+                android:onClick="EncerramentoLactacao" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:tint="#e4e3e3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorBackgroundSubMenu"
+                    android:text="Encerramento Lactação"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLetrasBranco"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="120dp"
+                android:layout_weight="1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:orientation="vertical"
+                android:background="@color/colorBackgroundMenu"
+                android:onClick="PartosNascimentos" >
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/ic_assignment_black_24dp"
+                    android:tint="#e4e3e3"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="8dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@color/colorBackgroundSubMenu"
+                    android:text="Partos e Nascimentos"
+                    android:textSize="15dp"
+                    android:textAlignment="center"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLetrasBranco"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- fim das linhas -->
+
+    </LinearLayout>
+
+
+
+</ScrollView>
